@@ -1,0 +1,60 @@
+.btn {
+    border: 1px solid #888;
+    width: 18%;
+    padding: 20px;
+    margin: auto;
+   
+    transition: all .2s ease-in-out;
+
+}
+
+
+.btn:hover {
+    transform: scale(1.1); 
+}
+
+#modal-container1 {
+    display: none;  
+  }
+  #modal-container2 {
+    display: none;  
+  }
+  #modal-container3 {
+    display: none;  
+  }
+  #modal-container4 {
+    display: none;  
+  }
+  #modal-container5 {
+    display: none;  
+  }
+  #modal-container6 {
+    display: none;  
+  }
+  #modal-container7 {
+    display: none;  
+  }
+  #modal-container8 {
+    display: none;  
+  }
+  #modal-container9 {
+    display: none;  
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #586994;
+    color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    
+    padding: 0;
+    border: 1px solid #888;
+    width: 18%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  }
