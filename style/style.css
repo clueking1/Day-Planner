@@ -33,7 +33,7 @@
   padding: 10px;
   left:0;
   right:0;
-  margin:58px auto;
+  margin:76px auto;
   border: 2px groove black;
   box-shadow:10px 10px 8px #000000;
   overflow: scroll;
@@ -48,10 +48,11 @@
     color: rgb(188, 200, 210);
     text-align: center;
     max-width: 250px;
+    height: 59px;
     padding: 10px;
     left:0;
     right:0;
-    margin:167px auto;
+    margin:183.8px auto;
     border: 2px groove black;
     box-shadow:10px 10px 8px #000000;
 }
@@ -68,6 +69,12 @@
    
 }
 
+
+
+.save {
+  border: 1px none #888;
+  background-color: rgba(218, 218, 218, 0.47);
+}
 
 
 
@@ -95,7 +102,8 @@
 
 
 #modal-container1 {
-    display: none;  
+    display: none;
+    
   }
   #modal-container2 {
     display: none;  
