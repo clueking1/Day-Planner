@@ -2,7 +2,7 @@
 Plan out your day from 9am - 5pm
 
 USED:
-JavaScript
+jQuery
 CSS
 HTML
 
