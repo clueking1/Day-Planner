@@ -308,3 +308,20 @@ $(document).ready(function(){
         $("#pm5").css("display", "none")
         });
     });
+
+    var data = null;
+
+    fetch("https://type.fit/api/quotes")
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(data) {
+      console.log(data);
+      var num = Math.floor((Math.random() * 1643) + 1);
+      i = num
+      var quote = document.querySelector(".quote")
+      var author = document.querySelector(".author")
+
+      quote.textContent = data[i].text 
+      author.textContent = "-" + data[i].author
+    });
