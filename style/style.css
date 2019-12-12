@@ -165,3 +165,58 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     
   }
+
+
+  @media only screen and (max-width: 650px) {
+   
+  
+   
+   
+    .date {
+     
+      left:0;
+     right:0px;
+      margin:0 auto;
+      
+  }
+  
+  .inspiration {
+    
+    left:0;
+   right:0px;
+    margin:900px auto;
+    
+  }
+  
+  .currentTodoDiv {
+    position: absolute;
+    text-align: center;
+    color: rgb(188, 200, 210);
+    max-width: 250px;
+    padding: 10px;
+    left:0;
+     right:0px;
+    margin:76px auto;
+    border: 2px groove black;
+    box-shadow:10px 10px 8px #000000;
+    overflow: scroll;
+  }
+  
+ 
+  
+  .calenderTitle {
+    
+      
+      right:0px;
+      margin:183.8px auto;
+      
+  }
+  
+  .allHours {
+    
+      left:0px;
+      right:0;
+      margin:285px auto;
+     
+  }
+  }
