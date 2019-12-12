@@ -28,13 +28,16 @@ $("#description8").val(box8)
 $("#description9").val(box9)
 
 var theDate = moment().format("D")
-var storeDate = localStorage.setItem("date", theDate)
+
+var storeDate = setTimeout(function(){
+    localStorage.setItem("date", theDate)
+  }, 2000)
 
 //function to get rid of localstorage each day
 $(document).ready(function(){
 
     if (theDate === localStorage.getItem("date")) {
-        
+       
     } else {
         localStorage.clear()
     }
